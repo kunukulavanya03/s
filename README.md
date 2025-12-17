@@ -1,12 +1,12 @@
 # s
 
-blog-website-design---mobile-app-design--Community
+Backend API for s
 
 ## Tech Stack
 
-- **Frontend**: React + Vite
+- **Frontend**: React
 - **Backend**: FastAPI + SQLAlchemy
-- **Design**: Figma ([View Design](https://www.figma.com/design/j22YTImTMF2lpL3jyFYkC0/blog-website-design---mobile-app-design--Community-?node-id=0-1&p=f&t=QyZcQIiHiJdlPHqh-0))
+- **Frontend Source**: GitHub ([Repository](https://github.com/HimaShankarReddyEguturi/Hotelbookinguidesign.git))
 
 ## Project Structure
 
@@ -43,25 +43,18 @@ cd backend
 
 ## Features
 
-- User registration and login
-- Blog post creation, editing, and deletion
-- Mobile app design creation, editing, and deletion
-- Commenting system
-- User following and feed
-- Notification system
+- user registration
+- user login
+- user profile management
+- password reset
 
 ## API Endpoints
 
-- `POST /api/auth/register` - Register a new user account
-- `POST /api/auth/login` - Log in to an existing user account
-- `GET /api/posts` - Retrieve a list of all blog posts
-- `GET /api/posts/:id` - Retrieve a single blog post by ID
-- `POST /api/posts` - Create a new blog post
-- `PUT /api/posts/:id` - Update an existing blog post
-- `DELETE /api/posts/:id` - Delete a blog post
-- `GET /api/designs` - Retrieve a list of all mobile app designs
-- `GET /api/designs/:id` - Retrieve a single mobile app design by ID
-- `POST /api/designs` - Create a new mobile app design
+- `POST /api/register` - Create a new user account
+- `POST /api/login` - Log in to an existing user account
+- `GET /api/profile` - Get the current user's profile information
+- `PUT /api/profile` - Update the current user's profile information
+- `POST /api/password_reset` - Reset the current user's password
 
 ## License
 
